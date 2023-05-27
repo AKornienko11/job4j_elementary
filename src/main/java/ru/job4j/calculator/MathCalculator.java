@@ -15,7 +15,7 @@ public class MathCalculator {
     }
 
     public static void main(String[] args) {
-        System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
+        System.out.println("Результат расчета равен : " + sumAndMultiply(10, 20));
         System.out.println("Результат расчета равен: " + divAndDiff(10, 20));
         System.out.println("Результат расчета равен: " + allVoid(10, 20));
     }
