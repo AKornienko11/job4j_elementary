@@ -20,8 +20,8 @@ public class PointTest {
     }
 
     @Test
-    public void when00to22Then2() {
-        double expected = 2.8284;
+    public void when00to22Then2dot83() {
+        double expected = 2.83;
         double out = Point.distance(0, 0, 2, 2);
         Assert.assertEquals(expected, out, 0.01);
     }
