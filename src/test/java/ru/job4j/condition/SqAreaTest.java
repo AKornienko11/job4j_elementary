@@ -7,9 +7,9 @@ public class SqAreaTest {
 
     @Test
     public void whenP6K2Then2() {
-    int expected = 2;
-    double out = SqArea.square(6, 2);
-    Assert.assertEquals(expected, out, 0.01);
+        int expected = 2;
+        double out = SqArea.square(6, 2);
+        Assert.assertEquals(expected, out, 0.01);
     }
 
     @Test
