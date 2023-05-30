@@ -6,8 +6,8 @@ public class Point {
         double subtractionY = (y2 - y1);
         double squaringX = Math.pow(subtractionX, 2);
         double squaringY = Math.pow(subtractionY, 2);
-        double additionXY = squaringX + squaringY;
-        double lsr = Math.sqrt(additionXY);
+        double additionsXY = squaringX + squaringY;
+        double lsr = Math.sqrt(additionsXY);
         return lsr;
     }
 
