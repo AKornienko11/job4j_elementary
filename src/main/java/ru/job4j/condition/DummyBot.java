@@ -5,11 +5,11 @@ public class DummyBot {
         String rsl = "I don't know. Please, ask another question.";
         if ("Hi, Bot.".equals(question)) {
             rsl = "Hi, SmartAss.";
+        } else if ("Can you add two plus two?".equals(question)) {
+            rsl = "I don't know. Please, ask another question.";
         }
         if ("Bye.".equals(question)) {
             rsl = "See you later.";
-        } else if ("Can you add two plus two?".equals(question)) {
-            rsl = "I don't know. Please, ask another question.";
         }
         return rsl;
     }
@@ -17,9 +17,9 @@ public class DummyBot {
     public static void main(String[] args) {
         String rsl = DummyBot.answer("Hi, Bot.");
         System.out.println(rsl);
-        rsl = DummyBot.answer("Bye.");
-        System.out.println(rsl);
         rsl = DummyBot.answer(" Can you add two plus two?");
+        System.out.println(rsl);
+        rsl = DummyBot.answer("Bye.");
         System.out.println(rsl);
     }
 }
