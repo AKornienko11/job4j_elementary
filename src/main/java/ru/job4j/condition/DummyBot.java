@@ -6,7 +6,7 @@ public class DummyBot {
         if ("Hi, Bot.".equals(question)) {
             rsl = "Hi, SmartAss.";
         } else if ("Can you add two plus two?".equals(question)) {
-            rsl = "I don't know. Please, ask another question.";
+            rsl = " I don't know. Please, ask another question.";
         }
         if ("Bye.".equals(question)) {
             rsl = "See you later.";
