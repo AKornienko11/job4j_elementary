@@ -67,7 +67,7 @@ public class ThreeMaxTest {
 
     @Test
     public void secondEqThird() {
-        int first = 100;
+        int first = 1;
         int second = 100;
         int third = 100;
         int result = ThreeMax.maxi(first, second, third);
