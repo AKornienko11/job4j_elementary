@@ -14,7 +14,7 @@ public class SortSelectedTest {
 
     @Test
     public void whenSortThree() {
-        int[] data = new int[]{5, 7, 3};
+        int[] data = new int[]{7, 5, 3};
         int[] result = SortSelected.sort(data);
         int[] expected = new int[]{3, 5, 7};
         assertThat(result).containsExactly(expected);
