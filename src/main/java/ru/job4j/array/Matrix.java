@@ -6,9 +6,7 @@ public class Matrix {
         for (int i = 1; i <= size; i++) {
             for (int j = 1; j <= size; j++) {
                 array[i - 1][j - 1] = i * j;
-                System.out.print(array[i - 1][j - 1]);
             }
-            System.out.println();
         }
         return array;
     }
