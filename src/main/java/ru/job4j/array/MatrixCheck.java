@@ -21,6 +21,7 @@ public class MatrixCheck {
             }
         }
         return result;
+
     }
 
     public static char[] extractDiagonal(char[][] board) {
