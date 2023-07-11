@@ -7,7 +7,7 @@ public class ArgMethod {
     }
 
     public static void main(String[] args) {
-            String name = "job4j";
+        String name = "job4j";
         int age = 6;
         ArgMethod.hello(name, age);
         ArgMethod.hello(name, age);
